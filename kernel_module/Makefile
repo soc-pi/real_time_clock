@@ -4,6 +4,8 @@
 PROJECT_NAME := real_time_clock
 obj-m += src/real_time_clock.o
 
+CFLAGS += -Iinclude
+
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 
