@@ -1,0 +1,9 @@
+&i2c1 {// Assuming your RTC is on I2C1.  Check your hardware.
+	#address-cells = <1>;
+	#size-cells = <0>;
+	
+	rtc: rtc@68 {
+		compatible = "maxim,ds3231";// Or the correct compatible string
+		reg = <0x68>;// I2C Address
+	};
+};

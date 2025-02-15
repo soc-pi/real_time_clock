@@ -1,0 +1,19 @@
+# Doxyfile configuration for RTC test application
+
+PROJECT_NAME           = "RTC Test Application"
+PROJECT_NUMBER        = 1.0
+PROJECT_BRIEF         = "Test application for Raspberry Pi 5 RTC driver"
+OUTPUT_DIRECTORY      = docs
+OPTIMIZE_OUTPUT_FOR_C = YES
+EXTRACT_ALL           = YES
+EXTRACT_PRIVATE       = YES
+EXTRACT_STATIC        = YES
+INPUT                 = .
+FILE_PATTERNS         = *.c *.h Makefile
+RECURSIVE             = YES
+GENERATE_HTML         = YES
+GENERATE_LATEX        = NO
+HAVE_DOT             = YES
+UML_LOOK             = YES
+CALL_GRAPH           = YES
+CALLER_GRAPH         = YES
