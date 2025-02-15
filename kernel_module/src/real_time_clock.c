@@ -1,7 +1,7 @@
 /**
  * @file real_time_clock.c
  * @brief Raspberry Pi 5 RTC Driver Implementation
- * @author Your Name
+ * @author Sandesh Ghimire ( sandesh@soccentric.com)
  * @copyright GPL
  * @date 2024
  *
@@ -28,7 +28,7 @@
 #include <linux/of.h> // For device tree lookup
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("Sandesh Ghimire ( sandesh@soccentric.com) ");
 MODULE_DESCRIPTION("Raspberry Pi 5 RTC Driver");
 MODULE_VERSION("1.0");
 MODULE_ALIAS("i2c:rpi5-rtc");

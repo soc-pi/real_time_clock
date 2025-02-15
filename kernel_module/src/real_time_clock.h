@@ -1,7 +1,7 @@
 /**
  * @file real_time_clock.h
  * @brief Raspberry Pi 5 RTC Driver Header
- * @author Your Name
+ * @author Sandesh Ghimire ( sandesh@soccentric.com)
  * @copyright GPL
  * @date 2024
  *

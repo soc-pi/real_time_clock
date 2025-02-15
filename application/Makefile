@@ -1,7 +1,7 @@
 ##
 # @file Makefile
 # @brief Build configuration for RTC test application
-# @author Your Name
+# @author Sandesh Ghimire ( sandesh@soccentric.com) 
 # @date 2024
 #
 # This Makefile builds the RTC test application with appropriate warning flags
